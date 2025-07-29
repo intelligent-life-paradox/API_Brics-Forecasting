@@ -9,15 +9,12 @@
 | João Luca         | Modelagem e Treinamento                          |#Matricula #548291
 | Joab              | Modelagem, validação e visualização              |#Matricula #49592S
 
-# 📈 ETF-Forecasting-and-Clustering
-
-Previsão do comportamento de ETFs de países selecionados utilizando múltiplos modelos de séries temporais e análise de cluster para identificar padrões entre ativos financeiros internacionais.
 
 ---
 
 ## 🎯 Objetivo
 
-O projeto visa prever os valores de ETFs (Exchange-Traded Funds) de países do BRICS e outros mercados emergentes com diferentes abordagens estatísticas e de aprendizado de máquina. Além disso, aplicamos técnicas de clusterização para identificar semelhanças e agrupamentos de comportamento entre os ETFs analisados.
+O projeto visa prever os valores de ETFs (Exchange-Traded Funds) de países do BRICS  com diferentes abordagens estatísticas e de aprendizado de máquina além de modelos econométricos clássicos. 
 
 ---
 
@@ -30,7 +27,6 @@ O projeto visa prever os valores de ETFs (Exchange-Traded Funds) de países do B
 - XGBoost 
 - Random Forest Regressor
 - Gradient Boosting 
-- KMeans 
 - Yahoo Finance API
 - Jupyter Notebook
 
@@ -44,7 +40,6 @@ O projeto visa prever os valores de ETFs (Exchange-Traded Funds) de países do B
 
   - XGBoost Regressor/GD Boosting/ Random Forest Regressor 
 - Avaliação de desempenho com métricas como MAE, RMSE
-- Clusterização dos ETFs com base em comportamento e variáveis derivadas (volatilidade, tendência etc.)
 
 ---
 
@@ -52,18 +47,12 @@ O projeto visa prever os valores de ETFs (Exchange-Traded Funds) de países do B
 
 ---
 
-## 🔍 Clusterização de ETFs
-
-Também foi realizada uma análise de agrupamento (clustering) para observar similaridades entre os ETFs com base em suas séries temporais:
-
-- KMeans com Elbow Method
 
 ---
 ETF-Forecasting-and-Clustering/
 ├── notebooks/
 │ ├── etf_preprocessing.ipynb # Limpeza e tratamento dos dados
 │ ├── etf_forecasting.ipynb # Modelos preditivos e validação
-│ ├── etf_clustering.ipynb # Clusterização com KMeans
 ├── comparativo de modelos.png # Gráfico com resultado dos modelos
 ├── README.md
 ---
